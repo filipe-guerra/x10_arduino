@@ -188,7 +188,7 @@ void sinal(boolean n){
   if (n==0){
     for(int i=0;i<3;i++){
       digitalWrite(13, LOW);   // Joga valor 0 na rede
-      delayMicroseconds(2777); 
+      delayMicroseconds(2777); // tempo de 1/3 de 1/2 ciclo: 2777 micro segundos
     }
   }
 }
