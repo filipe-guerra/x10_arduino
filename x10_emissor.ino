@@ -181,7 +181,7 @@ void sinal(boolean n){
       digitalWrite(13, HIGH);   // Joga valor 1 na rede
       delayMicroseconds(1000); 
       digitalWrite(13, LOW);    // set the LED off
-      delayMicroseconds(1777);
+      delayMicroseconds(1777); //teste
     }
   }
   
